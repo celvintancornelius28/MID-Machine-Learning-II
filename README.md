@@ -4,12 +4,10 @@ Repositori ini berisi proyek Ujian Tengah Semester (UTS) mata kuliah Machine Lea
 
 ---
 
-## 👥 Tim Pengembang (Kelompok 6)
-* **Celvin Tan Cornelius** - [NIM Kamu]
-* **[Nama Anggota 2]** - [NIM Anggota 2]
-* **[Nama Anggota 3]** - [NIM Anggota 3]
-* **[Nama Anggota 4]** - [NIM Anggota 4]
-* **[Nama Anggota 5]** - [NIM Anggota 5]
+## 👥 Tim Pengembang
+* **[Fajar Uli Andimas S.]** - [8020230156]
+* **[Samuel Agung Kurniawan Sitompul]** - [8020230261]
+* **[Celvin Tan Cornelius]** - [8020230276]
 
 *(Catatan: Silakan isi nama dan NIM anggota Kelompok 6 di atas)*
 
@@ -19,10 +17,11 @@ Repositori ini berisi proyek Ujian Tengah Semester (UTS) mata kuliah Machine Lea
 Sesuai dengan instruksi penugasan, repositori ini memuat struktur file sebagai berikut:
 
 * `eksplorasi_kelompok6.ipynb` : *Notebook* utama yang berisi seluruh tahapan eksperimen, mulai dari *Exploratory Data Analysis* (EDA), penanganan data tidak seimbang (SMOTE), seleksi fitur, hingga evaluasi model yang dilengkapi dengan narasi analisis.
-* `mlflow.py` : *Script* Python terpisah yang digunakan untuk menjalankan *hyperparameter tuning* dan melacak eksperimen model final menggunakan MLflow.
+* `run_mlflow.py` : *Script* Python terpisah yang digunakan untuk menjalankan *hyperparameter tuning* dan melacak eksperimen model final menggunakan MLflow.
 * `app.py` : *Script* utama antarmuka web berbasis Streamlit untuk tahap *deployment*.
 * `pipeline_terbaik.pkl` : Objek *Pipeline* utuh (berisi *Scaler*, *Feature Selection*, dan *Model*) yang telah dilatih dan disiapkan untuk mencegah terjadinya *Data Leakage*.
 * `requirements.txt` : Daftar pustaka (*library*) dan dependensi yang dibutuhkan untuk menjalankan aplikasi di server Streamlit Cloud.
+*  `sample_testing.csv` : Dataset berukuran kecil yang berisi sampel lalu lintas jaringan baru untuk mendemonstrasikan dan menguji fitur prediksi secara langsung pada antarmuka web.
 
 ---
 
@@ -61,11 +60,3 @@ Aplikasi web kami telah berhasil di-*deploy* dan dapat diakses secara publik.
 
 ---
 
-## 💻 Cara Menjalankan Secara Lokal (Opsional)
-Jika ingin menjalankan aplikasi Streamlit ini di komputer lokal, jalankan perintah berikut di terminal:
-```bash
-# 1. Instalasi dependensi
-pip install -r requirements.txt
-
-# 2. Jalankan aplikasi
-streamlit run app.py
