@@ -9,7 +9,6 @@ Repositori ini berisi proyek Ujian Tengah Semester (UTS) mata kuliah Machine Lea
 * **[Samuel Agung Kurniawan Sitompul]** - [8020230261]
 * **[Celvin Tan Cornelius]** - [8020230276]
 
-*(Catatan: Silakan isi nama dan NIM anggota Kelompok 6 di atas)*
 
 ---
 
