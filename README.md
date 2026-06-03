@@ -15,7 +15,7 @@ Repositori ini berisi proyek Ujian Tengah Semester (UTS) mata kuliah Machine Lea
 ## 📂 Struktur Repositori & File Wajib
 Sesuai dengan instruksi penugasan, repositori ini memuat struktur file sebagai berikut:
 
-* `eksplorasi_kelompok.ipynb` : *Notebook* utama yang berisi seluruh tahapan eksperimen, mulai dari *Exploratory Data Analysis* (EDA), penanganan data tidak seimbang (SMOTE), seleksi fitur, hingga evaluasi model yang dilengkapi dengan narasi analisis.
+* `eksplorasi_kelompok.ipynb` : *Notebook* utama yang berisi seluruh tahapan eksperimen, mulai dari *Exploratory Data Analysis* (EDA), seleksi fitur, hingga evaluasi model yang dilengkapi dengan narasi analisis.
 * `run_mlflow.py` : *Script* Python terpisah yang digunakan untuk menjalankan *hyperparameter tuning* dan melacak eksperimen model final menggunakan MLflow.
 * `app.py` : *Script* utama antarmuka web berbasis Streamlit untuk tahap *deployment*.
 * `pipeline_terbaik.pkl` : Objek *Pipeline* utuh (berisi *Scaler*, *Feature Selection*, dan *Model*) yang telah dilatih dan disiapkan untuk mencegah terjadinya *Data Leakage*.
