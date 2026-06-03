@@ -6,7 +6,7 @@ Repositori ini berisi proyek Ujian Tengah Semester (UTS) mata kuliah Machine Lea
 
 ## 👥 Tim Pengembang
 * **[Fajar Uli Andimas S.]** - [8020230156]
-* **[Samuel Agung Kurniawan Sitompul]** - [8020230261]
+* **[Samuel Agung Kurniawan S.]** - [8020230261]
 * **[Celvin Tan Cornelius]** - [8020230276]
 
 
